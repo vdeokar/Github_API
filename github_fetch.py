@@ -1,7 +1,7 @@
 import requests
 import argparse
 import logging
-from Github_API.utils import util
+from utils import util
 
 format_string = '[%(asctime)s] %(levelname)s %(name)s:%(lineno)s %(message)s'
 logging.basicConfig(level=logging.DEBUG, format=format_string)
@@ -9,6 +9,7 @@ logger = logging.getLogger(__name__)
 
 
 def fetch_commits(repo_url, params, headers):
+    # Fetch response object and parse commit info into list
     items = []
     resp = get_commit_details(repo_url, params, headers)
     if resp is not None:
@@ -27,7 +28,7 @@ def fetch_commits(repo_url, params, headers):
 
 
 def get_commit_details(repo_url, params, headers):
-
+    # Make GET API call to fetch commits for repo-branch
     try:
         logger.debug('Calling Get for repo commits {0}'.format(repo_url))
         resp = requests.get(repo_url,

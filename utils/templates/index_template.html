@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-table, th, td {
+<style>table, th, td {
   border:1px solid black;
   text-align: center;
   vertical-align: middle;
-}
-tbody td{
+}tbody td{
   padding: 10px;
-}
-tbody tr:nth-child(odd){
+}tbody tr:nth-child(odd){
   background-color: #76B900;
   color: #000000;
-}
-</style>
+}</style>
 <head>
-    <title>My Test</title>
+    <title>My Github_API Python Project</title>
 </head>
 <body>
-<h1>My Webpage</h1>
+<h1>Github Commit Details</h1>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -29,7 +25,7 @@ tbody tr:nth-child(odd){
     </tr>
   </thead>
 <tbody>
-   {% for item in items %}
+   {%for item in items%}
       <tr>
          <td>{{loop.index0}}</td>
          <td>{{item['SHA']}}</td>
@@ -39,3 +35,5 @@ tbody tr:nth-child(odd){
    {% endfor %}
 </tbody>
 </table>
+</body>
+</html>

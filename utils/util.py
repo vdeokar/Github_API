@@ -17,6 +17,7 @@ def create_html_file(items):
 
 
 def copy_to_path(output_path, data):
+    # Check output_path directory exists
     if os.path.exists(output_path):
         filename = output_path + 'index.html'
         logger.debug('writing output to file {0}'.format(filename))
