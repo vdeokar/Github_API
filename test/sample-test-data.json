@@ -1,0 +1,46 @@
+[{
+    "committer": null,
+    "author": null,
+    "url": "https://api.github.com/repos/NVIDIA/nvidia-docker/commits/7a02fe9453778ee09fa05c1af2a7372b1b4af608",
+    "comments_url": "https://api.github.com/repos/NVIDIA/nvidia-docker/commits/7a02fe9453778ee09fa05c1af2a7372b1b4af608/comments",
+    "html_url": "https://github.com/NVIDIA/nvidia-docker/commit/7a02fe9453778ee09fa05c1af2a7372b1b4af608",
+    "sha": "7a02fe9453778ee09fa05c1af2a7372b1b4af608",
+    "node_id": "C_kwDOArcm3doAKDdhMDJmZTk0NTM3NzhlZTA5ZmEwNWMxYWYyYTczNzJiMWI0YWY2MDg",
+    "parents": [
+      {
+        "url": "https://api.github.com/repos/NVIDIA/nvidia-docker/commits/4175b0fc355348dc85415bccef80684f42b20662",
+        "sha": "4175b0fc355348dc85415bccef80684f42b20662",
+        "html_url": "https://github.com/NVIDIA/nvidia-docker/commit/4175b0fc355348dc85415bccef80684f42b20662"
+      },
+      {
+        "url": "https://api.github.com/repos/NVIDIA/nvidia-docker/commits/ec5b3809abf402f691bedb37815ef83135f3c294",
+        "sha": "ec5b3809abf402f691bedb37815ef83135f3c294",
+        "html_url": "https://github.com/NVIDIA/nvidia-docker/commit/ec5b3809abf402f691bedb37815ef83135f3c294"
+      }
+    ],
+    "commit": {
+      "committer": {
+        "date": "2022-03-29T06:04:50Z",
+        "name": "Evan Lezar",
+        "email": "7723350-elezar@users.noreply.gitlab.com"
+      },
+      "author": {
+        "date": "2022-03-29T06:04:50Z",
+        "name": "Evan Lezar",
+        "email": "7723350-elezar@users.noreply.gitlab.com"
+      },
+      "url": "https://api.github.com/repos/NVIDIA/nvidia-docker/git/commits/7a02fe9453778ee09fa05c1af2a7372b1b4af608",
+      "tree": {
+        "url": "https://api.github.com/repos/NVIDIA/nvidia-docker/git/trees/8a728e3802704ed3243ee50ceca905219133d444",
+        "sha": "8a728e3802704ed3243ee50ceca905219133d444"
+      },
+      "comment_count": 0,
+      "verification": {
+        "reason": "unsigned",
+        "verified": false,
+        "payload": null,
+        "signature": null
+      },
+      "message": "Merge branch 'centos-stream8' into 'master'\n\nSwitch from centos:8 to centos:stream8 images to build centos8 packages\n\nSee merge request nvidia/container-toolkit/nvidia-docker!40"
+    }
+  }]

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>table, th, td {
+  border:1px solid black;
+  text-align: center;
+  vertical-align: middle;
+}tbody td{
+  padding: 10px;
+}tbody tr:nth-child(odd){
+  background-color: #76B900;
+  color: #000000;
+}</style>
+<head>
+    <title>My Github_API Python Project</title>
+</head>
+<body>
+<h1>Github Commit Details</h1>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>No.</th>
+      <th>CommitID</th>
+      <th>Author</th>
+      <th>Message</th>
+    </tr>
+  </thead>
+<tbody>
+   {%for item in items%}
+      <tr>
+         <td>{{loop.index0}}</td>
+         <td>{{item['SHA']}}</td>
+         <td>{{item['AUTHOR']}}</td>
+         <td>{{item['MESSAGE']}}</td>
+      </tr>
+   {% endfor %}
+</tbody>
+</table>
+</body>
+</html>
