@@ -188,4 +188,11 @@ curl -H "Accept: application/vnd.github.v3+json" \
 
 ```
 
+#### Run the tests
+
+
+```commandline
+python3 -m unittest test/mock.py
+```
+
 
